@@ -1,0 +1,121 @@
+/* --------- Styling navbar --------- */
+
+.logo{
+  width: 13%;
+  margin-left: 100px;
+}
+
+.navbar{
+  /* background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); */
+  background: linear-gradient(135deg, #15113a, #0f0c29, #15113a);
+  /* background: radial-gradient(circle at 30% 30%, #0f2027, #203a43, #2c5364); */
+}
+
+#navbarNav{
+  position: relative;
+  justify-content: center;
+}
+
+.nav-item{
+  margin-left: 60px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: rgb(88, 88, 89);
+}
+
+.nav-button{
+  /* background: linear-gradient(135deg, #8e2de2, #4a00e0); */
+  background: linear-gradient(to right, #a855f7, #f59e0b);
+  color: white;
+  position: relative;
+  margin-left: 200px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 0 15px #8e2de2;
+  transition: 0.3s
+}
+
+.nav-button:hover{
+  box-shadow: 0 0 25px #8e2de2;
+}
+
+
+/* Optimizing for mobile screens */
+
+@media(max-width:600px){
+  .logo{
+    width: 30%;
+    margin-left: 0;
+  }
+  
+  
+  #navbarNav{
+    position: relative;
+    justify-content: center;
+  }
+  
+  .nav-item{
+    margin-left: 15px;
+  }
+  
+  .nav-button{
+
+    color: white;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #8e2de2;
+    transition: 0.3s
+  }
+  
+  .nav-button:hover{
+    box-shadow: 0 0 25px #8e2de2;
+  }
+}
+
+
+/* Optimizing tablet width */
+
+@media(width:768px){
+  .logo{
+    width: 20%;
+    margin-left: 0;
+  }
+  
+  
+  #navbarNav{
+    position: relative;
+    justify-content: center;
+  }
+  
+  .nav-item{
+    margin-left: 20px;
+  }
+  
+  .nav-button{
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #8e2de2;
+    transition: 0.3s
+  }
+  
+  .nav-button:hover{
+    box-shadow: 0 0 25px #8e2de2;
+  }
+}

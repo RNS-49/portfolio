@@ -1,0 +1,41 @@
+/* ---------Styling freelance service section--------- */
+
+.service-card {
+  background: linear-gradient(to bottom right, #0f0c29, #0f0c29, #0f0c29);
+  color: #fff;
+  border: 1px solid rgb(131, 131, 131);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.freelance-head{
+  color: white;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: #ff6ec4;
+}
+
+.service-id {
+  font-weight: bold;
+  font-size: 20px;
+  color: #999;
+}
+
+.service-title {
+  margin: 10px 0;
+  background: linear-gradient(to right, #a855f7, #f59e0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.read-more {
+  color: #f59e0b;
+  text-decoration: none;
+  font-weight: 500;
+}

@@ -1,0 +1,163 @@
+/* -----------Styling about section---------- */
+
+
+.about-section {
+  background: linear-gradient(135deg, #15113a, #0f0c29, #15113a);
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.about-head{
+  color: white;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-two{
+  width: 45%;
+  border-radius: 10px;
+}
+
+.myself{
+  text-align:justify;
+}
+
+.skill-card {
+  /* background: linear-gradient(135deg, #8e2de2, #4a00e0); */
+  background: linear-gradient(to right, #a855f7, #f59e0b);
+  justify-content: center;
+  border-radius: 15px;
+  transition: background 0.3s;
+  color: white;
+  height: 6vh;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.skill-card:hover {
+  background: #580bbd;
+}
+
+.skill{
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+
+.counter{
+  background: linear-gradient(135deg, #15113a, #0f0c29, #15113a);
+  /* background: linear-gradient(135deg, #0f0c29, #302b63, #0f0c29); */
+  border-radius: 20px;
+  margin-top: 20px;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Optimzing for mobile screens */
+
+
+@media(max-width:600px){
+  .about-section {
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .profile-two{
+    width: 50%;
+    height: 40vh;
+    border-radius: 10px;
+    margin-top: -20px;
+  }
+  
+  .myself{
+    text-align:justify;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  
+  .skill-card {
+    justify-content: center;
+    border-radius: 15px;
+    transition: background 0.3s;
+    color: white;
+    height: 6vh;
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .skill-card:hover {
+    background: #580bbd;
+  }
+  
+  .skill{
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  
+  
+  .counter{
+
+    border-radius: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
+
+
+/* Optimizing for tablet width */
+
+
+@media(width:768px){
+  .about-section {
+
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .profile-two{
+    width: 90%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+  
+  .myself{
+    text-align:justify;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  
+  .skill-card {
+    justify-content: center;
+    border-radius: 15px;
+    transition: background 0.3s;
+    color: white;
+    height: 6vh;
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .skill-card:hover {
+    background: #580bbd;
+  }
+  
+  .skill{
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  
+  
+  .counter{
+
+    border-radius: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
